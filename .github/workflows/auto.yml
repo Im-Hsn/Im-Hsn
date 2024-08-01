@@ -1,30 +1,32 @@
-
 name: CI
 
 on:
   schedule:
-    # "0 0 * * *"
-    - cron: "0 0 * * 0,3" 
+    # Run automatically every Sunday and Wednesday at midnight
+    - cron: "0 0 * * 0,3"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2.3.4
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-      - name: Generate Snake
+      - name: Generate Snake Animation
         uses: Platane/snk@master
-        id: snake-gif
+        id: generate-snake
         with:
           github_user_name: ${{ github.repository_owner }}
           gif_out_path: ./assets/github-contribution-grid-snake.gif
           svg_out_path: ./assets/github-contribution-grid-snake.svg
+          # Add the pattern to generate the text "Hassan"
+          text: "Hassan"
 
-      - name: Push to GitHub
+      - name: Commit and Push Generated Files
         uses: EndBug/add-and-commit@v7.2.1
         with:
           branch: main
-          message: 'Generate Contribution Snake'
+          message: 'Generate Contribution Snake with pattern "Hassan"'
