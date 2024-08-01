@@ -1,37 +1,45 @@
-name: Generate Animation
+name: Generate Snake
 
 on:
-  # Run automatically every 24 hours
+  # Run automatically every 12 hours
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 */12 * * *"
+  
+  # Allows manual triggers
   workflow_dispatch:
+  
+  # Runs on every push to the main branch
   push:
     branches:
-      - main
+    - main
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
+    
     steps:
-      - name: Generate Contribution Grid Snake SVG
-        uses: Platane/snk/svg-only@v3
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Generate GitHub Contribution Grid Snake SVG and GIF
+      - name: Generate GitHub Contribution Grid Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          # As of now, Platane/snk does not support custom text directly. 
-          # This is a placeholder in case this feature is available or an alternative is used.
-          text: "Hassan"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.gif?color_snake=orange&color_dots=#bff6c2,#a7ff8d,#90f464,#8cf14b,#86d93c
 
-      - name: Push SVG Files to GitHub Pages Branch
+      # Push generated files to the 'snake' branch
+      - name: Push Generated Files to 'snake' Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: snake
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
