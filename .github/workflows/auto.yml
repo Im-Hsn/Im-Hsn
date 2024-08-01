@@ -15,17 +15,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Generate Snake Animation
+      - name: Generate Contribution Grid Snake SVG
         uses: Platane/snk@master
         id: generate-snake
         with:
           github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./assets/github-contribution-grid-snake.gif
           svg_out_path: ./assets/github-contribution-grid-snake.svg
-          # Add the pattern to generate the text "Hassan"
+          # As of now, Platane/snk does not support custom text directly. 
+          # This is a placeholder in case this feature is available or an alternative is used.
           text: "Hassan"
 
-      - name: Commit and Push Generated Files
+      - name: Commit and Push Generated SVG
         uses: EndBug/add-and-commit@v7.2.1
         with:
           branch: main

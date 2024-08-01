@@ -15,14 +15,15 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate Snake SVG
+      - name: Generate Contribution Grid Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          # Add the pattern to generate the text "Hassan"
+          # As of now, Platane/snk does not support custom text directly. 
+          # This is a placeholder in case this feature is available or an alternative is used.
           text: "Hassan"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
