@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  schedule:
+    - cron: "0 0 * * 0,3"  # Runs every Sunday and Wednesday at midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+
+      - name: Generate SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push SVGs
+        uses: EndBug/add-and-commit@v7.2.1
+        with:
+          branch: main
+          message: 'Update Contribution Snake'
+          add: 'assets/github-contribution-grid-snake.svg,assets/github-contribution-grid-snake-dark.svg'
