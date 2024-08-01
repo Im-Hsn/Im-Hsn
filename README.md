@@ -6,4 +6,3 @@
 
 
 <img src="assets/footer.svg" width="100%">
-![GitHub Footer SVG](assets/footer.svg)
