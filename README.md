@@ -1,11 +1,13 @@
 # GitHub Contribution Grid Snake Animation
 
-<div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/holic-x/holic-x/assets/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake Animation" />
-</div>
+This project generates a GitHub Contribution Grid Snake animation based on contributions and commits. The animation is updated automatically every 12 hours or can be triggered manually.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/holic-x/holic-x/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/holic-x/holic-x/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/holic-x/holic-x/output/github-contribution-grid-snake.svg">
-</picture>
+## Generated Animation
+
+The generated animation is directly displayed below:
+
+### Light Mode
+![GitHub Contribution Grid Snake SVG](https://raw.githubusercontent.com/Im-Hsn/Im-Hsn/snake/github-contribution-grid-snake.svg)
+
+### Dark Mode
+![GitHub Contribution Grid Snake Dark SVG](https://raw.githubusercontent.com/Im-Hsn/Im-Hsn/snake/github-contribution-grid-snake-dark.svg)

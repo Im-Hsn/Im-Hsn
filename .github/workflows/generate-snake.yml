@@ -25,18 +25,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Generate GitHub Contribution Grid Snake SVG and GIF
+      # Generate GitHub Contribution Grid Snake SVG with "Hassan"
       - name: Generate GitHub Contribution Grid Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Im-Hsn
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake.gif?color_snake=orange&color_dots=#bff6c2,#a7ff8d,#90f464,#8cf14b,#86d93c
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          name: Hassan
 
-      # Push generated files to the 'snake' branch
-      - name: Push Generated Files to 'snake' Branch
+      # Push generated SVG to 'snake' branch
+      - name: Push Generated SVG to 'snake' Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: snake
