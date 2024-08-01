@@ -7,7 +7,7 @@ This project generates a GitHub Contribution Grid Snake animation based on contr
 The generated animation is directly displayed below:
 
 ### Light Mode
-![GitHub Contribution Grid Snake SVG](https://raw.githubusercontent.com/Im-Hsn/Im-Hsn/snake/github-contribution-grid-snake.svg)
+![GitHub Contribution Grid Snake SVG](https://raw.githubusercontent.com/adorabled4/adorabled4/output/github-contribution-grid-snake.svg)
 
 ### Dark Mode
-![GitHub Contribution Grid Snake Dark SVG](https://raw.githubusercontent.com/Im-Hsn/Im-Hsn/snake/github-contribution-grid-snake-dark.svg)
+![GitHub Contribution Grid Snake Dark SVG](https://raw.githubusercontent.com/holic-x/holic-x/output/github-contribution-grid-snake-dark.svg)
