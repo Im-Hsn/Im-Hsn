@@ -1,45 +1,41 @@
-name: generate animation
+name: Generate HSN Animation
 
 on:
-  # run automatically every 24 hours
+  # Automatically run every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 0 * * *"  # Adjust the schedule as needed
   
-  # allows to manually run the job at any time
+  # Manually trigger the workflow
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # Run on every push to the main branch
   push:
     branches:
-    - main
-    
-  
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Generate the SVG with HSN pattern
+      - name: Generate HSN Contribution Grid Snake
+        run: |
+          curl -sL https://github.com/Platane/snk/releases/download/v3/svg-only@v3.tar.gz | tar xz
+          ./generate-snake.sh --user ${{ github.repository_owner }} --pattern "HSN" --output dist/github-contribution-grid-snake.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      # Push the generated SVG to a branch
+      - name: Push HSN SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
