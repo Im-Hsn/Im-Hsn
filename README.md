@@ -6,4 +6,9 @@
   <img src="https://komarev.com/ghpvc/?username=Im-Hsn&label=Profile%20Views&color=007bff&style=flat" alt="Im-Hsn Profile Views" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 5px; background-color: #f8f9fa;" />
 </p>
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="https://komarev.com/ghpvc/?username=Im-Hsn&label=Profile%20Views&color=007bff&style=flat" alt="Im-Hsn Profile Views" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 5px; background-color: #f8f9fa; margin-left: 30px;" />
+</div>
+
+
 <img src="assets/footer.svg" width="100%">
