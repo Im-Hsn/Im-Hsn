@@ -54,16 +54,22 @@ Full-stack developer with computer engineering background, specializing in AI in
 ## 🏆 Key Projects
 
 <div align="center">
-  <a href="https://github.com/Im-Hsn/InMind-Project">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight&hide_border=true" />
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/Im-Hsn/Full-Stack-Laravel-Project">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Full-Stack-Laravel-Project&theme=tokyonight&hide_border=true" />
-  </a>
-  <br><br>
-  <a href="https://github.com/Im-Hsn/AI-Text-Detection">
-    <img width="390" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true" />
-  </a>&nbsp;&nbsp;
+  <p>
+    <a href="https://github.com/Im-Hsn/InMind-Project">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight&hide_border=true" />
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/Im-Hsn/Full-Stack-Laravel-Project">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Full-Stack-Laravel-Project&theme=tokyonight&hide_border=true" />
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/Im-Hsn/AI-Text-Detection">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true" />
+    </a>
+  </p>
+  <p>
 </div>
 
 ## 🚀 Achievements
