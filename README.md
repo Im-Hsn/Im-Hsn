@@ -55,19 +55,21 @@ Full-stack developer with computer engineering background, specializing in AI in
 
 <div align="center">
   <a href="https://github.com/Im-Hsn/InMind-Project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight&hide_border=true" />
+    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/Im-Hsn/Full-Stack-Laravel-Project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Full-Stack-Laravel-Project&theme=tokyonight&hide_border=true" />
+    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Full-Stack-Laravel-Project&theme=tokyonight&hide_border=true" />
   </a>
+  
   <a href="https://github.com/Im-Hsn/AI-Text-Detection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true" />
+    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/Im-Hsn/Image-Captioning-AI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Image-Captioning-AI&theme=tokyonight&hide_border=true" />
+    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Image-Captioning-AI&theme=tokyonight&hide_border=true" />
   </a>
+  
   <a href="https://github.com/Im-Hsn/Store-Monitor-API">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Store-Monitor-API&theme=tokyonight&hide_border=true" />
+    <img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Store-Monitor-API&theme=tokyonight&hide_border=true" />
   </a>
 </div>
 
