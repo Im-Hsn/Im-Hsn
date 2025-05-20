@@ -54,17 +54,31 @@ Full-stack developer with computer engineering background, specializing in AI in
 ## 🏆 Key Projects
 
 <div align="center">
-  <a href="https://github.com/Im-Hsn/InMind-Project">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight" />
-  </a>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    <a href="https://github.com/Im-Hsn/InMind-Project">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight&hide_border=true&border_radius=10" />
+    </a>
+    
+    <a href="https://github.com/Im-Hsn/Full-Stack-Laravel-Project">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Full-Stack-Laravel-Project&theme=tokyonight&hide_border=true&border_radius=10" />
+    </a>
+  </div>
   
-  <a href="https://github.com/Im-Hsn/Full-Stack-Laravel-Project">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Full-Stack-Laravel-Project&theme=tokyonight" />
-  </a>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 10px;">
+    <a href="https://github.com/Im-Hsn/AI-Text-Detection">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true&border_radius=10" />
+    </a>
+    
+    <a href="https://github.com/Im-Hsn/Image-Captioning-AI">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Image-Captioning-AI&theme=tokyonight&hide_border=true&border_radius=10" />
+    </a>
+  </div>
   
-  <a href="https://github.com/Im-Hsn/AI-Text-Detection">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight" />
-  </a>
+  <div style="display: flex; justify-content: center; margin-top: 10px;">
+    <a href="https://github.com/Im-Hsn/Store-Monitor-API">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Store-Monitor-API&theme=tokyonight&hide_border=true&border_radius=10" />
+    </a>
+  </div>
 </div>
 
 ## 🚀 Achievements
@@ -72,13 +86,6 @@ Full-stack developer with computer engineering background, specializing in AI in
 - 🥇 **Hackathon Winner** (2025): AI solution for mental health and wellness
 - 🏆 **Solo Developer Winner** (2024): Outperformed 100+ developers in a competitive Full-stack hackathon
 - 🧠 Specialized in AI implementation into various software projects
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Im-Hsn&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Im-Hsn&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
 
 ---
 
