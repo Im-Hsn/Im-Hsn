@@ -69,7 +69,7 @@ Full-stack developer with computer engineering background, specializing in AI in
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true" />
     </a>
   </p>
-  <p>m
+  <p>
 </div>
 
 ## 🚀 Achievements
