@@ -70,15 +70,6 @@ Full-stack developer with computer engineering background, specializing in AI in
     </a>
   </p>
   <p>
-    <a href="https://github.com/Im-Hsn/Image-Captioning-AI">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Image-Captioning-AI&theme=tokyonight&hide_border=true" />
-    </a>
-  </p>
-  <p>
-    <a href="https://github.com/Im-Hsn/Store-Monitor-API">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Store-Monitor-API&theme=tokyonight&hide_border=true" />
-    </a>
-  </p>
 </div>
 
 ## 🚀 Achievements
