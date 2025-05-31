@@ -6,7 +6,7 @@
 
 ## 💻 About Me
 
-Full-stack developer with computer engineering background, specializing in AI integration, software development, and system design.
+Software developer with computer engineering background, specializing in machine learning, full-stack development, and system design.
 
 ## 🛠️ Tech Stack
 
