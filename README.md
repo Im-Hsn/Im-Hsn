@@ -6,7 +6,7 @@
 
 ## 💻 About Me
 
-Software Engineer with Computer Engineering background, specializing in Machine Learning, Full-stack development, and System Design.
+Software Engineer with Computer Engineering background, specializing in Machine Learning, Full-stack development, & System Design.
 
 ## 🛠️ Tech Stack
 
