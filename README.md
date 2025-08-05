@@ -6,7 +6,7 @@
 
 ## 💻 About Me
 
-Software developer with computer engineering background, specializing in machine learning, full-stack development, and system design.
+Software Engineer with computer engineering background, specializing in machine learning, full-stack development, and system design.
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +53,7 @@ Software developer with computer engineering background, specializing in machine
 
 <div align="center">
   <p>
-    <a href="https://github.com/Im-Hsn/InMind-Project">
+    <a href="https://github.com/Im-Hsn/Industrial-Object-Detection">
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=InMind-Project&theme=tokyonight&hide_border=true" />
     </a>
   </p>
