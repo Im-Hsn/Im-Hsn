@@ -61,12 +61,12 @@
 
 ## Featured Projects
 
-<p align="center">
-  <a href="https://github.com/Im-Hsn/AI-Text-Detection"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=AI-Text-Detection&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/Im-Hsn/Industrial-Object-Detection"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Industrial-Object-Detection&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/Im-Hsn/CI-CD-Microservices-Project"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=CI-CD-Microservices-Project&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/Im-Hsn/Image-Captioning-AI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Im-Hsn&repo=Image-Captioning-AI&theme=tokyonight&hide_border=true" /></a>
-</p>
+| Project | What it does | Stack |
+|---|---|---|
+| 🔍 **[AI Text Detection](https://github.com/Im-Hsn/AI-Text-Detection)** | Detects and extracts text from images, with a training pipeline and web app | YOLOv8 · EasyOCR · Flask · Docker · CUDA |
+| 🏭 **[Industrial Object Detection](https://github.com/Im-Hsn/Industrial-Object-Detection)** | Detects tuggers, cabinets, boxes and forklifts on industrial sites | YOLOv5 · FastAPI · Docker · GitHub Actions |
+| ⚙️ **[CI/CD Microservices](https://github.com/Im-Hsn/CI-CD-Microservices-Project)** | Containerized microservices with an automated build and test pipeline | Python · Docker · GitHub Actions |
+| 🖼️ **[Image Captioning AI](https://github.com/Im-Hsn/Image-Captioning-AI)** | Generates text captions for images | PyTorch · CNN + LSTM |
 
 ---
 <img src="assets/footer.svg" width="100%">
