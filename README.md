@@ -15,8 +15,6 @@
 - 🧠 Interests: **AI/ML, automation, and software that has real impact.** I enjoy software engineering problems as much as AI ones.
 - 🏆 2× hackathon winner · C++ teaching assistant for 60+ students.
 
-> Most of my industry work is proprietary. The repos below are personal and academic projects.
-
 ## Tech Stack
 
 <div align="center">
